@@ -95,7 +95,7 @@ function sumArray(arr) {
         - O(n²) = O(my)
         - O(2ⁿ) = O(no)
         - O(n!) = O(mg!)
-![Big-O Complexity Chart](image.png)
+- ![Big-O Complexity Chart](image.png)
 
 # Trade off between Time and Space
 - Algorithms use Memory and need Time to complete
