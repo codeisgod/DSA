@@ -1,0 +1,5 @@
+- comparitive (logical && || etc takes less computation time than branching)
+
+- whenever interviewer ask about time or space complexity then answer should be like
+    - Big Oh of 1 => O(1)
+    - Big Oh of n => O(n) etc.
