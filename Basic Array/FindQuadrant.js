@@ -63,7 +63,6 @@ function findQuadrant(x,y) {
     }
 }
 
-
 let x = -6
 let y = 3
 const result = findQuadrant(x,y)
