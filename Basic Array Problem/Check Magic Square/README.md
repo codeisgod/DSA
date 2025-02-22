@@ -5,16 +5,19 @@ Given a matrix of dimensions n x n having elements 1 to n*n distinct elements, c
 Magic square is a square that has the same sum along all rows, columns and diagonals.
 
 **Input format**
+
 There are n + 1 lines of input.
 
 First line contains integer n.
 
 The next n lines contain n space separated elements.
 
-Output format
+**Output format**
+
 Print "Yes" if it is a magic square , "No" otherwise.
 
-Sample Input 1
+**Sample Input 1**
+
 3
 
 4 9 2
@@ -23,16 +26,31 @@ Sample Input 1
 
 8 1 6
 
-Sample Output 1
+**Sample Output 1**
+
 Yes
 
 **Explanation 1**
+
 All rows, columns and diagonals have sum 15.
 
 **Constraints**
+
 1 <= n <= 100
 
 1 <= element of matrix <= n x n
 
 **Methodology - Problem Approach**
+
 [Check Masic Square](https://www.youtube.com/watch?v=FM7XwkAWFDs)
+[Solution](./checkMagicSquare.js)
+
+**Logic**
+
+- for primary diagonal
+```
+(1,1)     ()     ()
+()       (2,2)   ()
+()        ()    (3,3)
+```
+- i = j ==> so we can say (i,i)
