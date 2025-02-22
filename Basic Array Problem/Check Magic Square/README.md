@@ -48,9 +48,10 @@ All rows, columns and diagonals have sum 15.
 ### Logic
 
 - for primary diagonal
-```
-(1,1)     ()     ()
-()       (2,2)   ()
-()        ()    (3,3)
-```
-- i = j ==> so we can say (i,i)
+    ```
+    (1,1)     ()     ()
+    ()       (2,2)   ()
+    ()        ()    (3,3)
+    ```
+    - i = j   ->  so we can say (i,i)
+
