@@ -1,3 +1,5 @@
+'use strict'
+
 function checkMagicSquare(n, matrix) {
     var primary_digonal_sum=0, secondary_diagonal_sum=0;
     for (var i=0; i<n; i++)
@@ -26,13 +28,12 @@ function checkMagicSquare(n, matrix) {
     // Space Complexity = O(1)
 }
 
-
-matrix = [
+let matrix = [
     [4, 9, 2],
     [3, 5, 7],
     [8, 1, 6]
-]
+    ]
 
-n = 3
+let n = 3
 
-checkMagicSquare(n, matrix)
+console.log(checkMagicSquare(n, matrix))

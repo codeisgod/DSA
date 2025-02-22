@@ -34,11 +34,40 @@ All rows, columns and diagonals have sum 15.
 - [Solution](./checkMagicSquare.js)
 
 ### Logic
+- for square Matrix
+    - number of row = number of matrix 
+    - lets say n*n matrix
+    - here lets take `n=3`
+
 - for primary diagonal
     ```
-    (1,1)     ()     ()
-    ()       (2,2)   ()
-    ()        ()    (3,3)
+    (0,0)    ()      ()
+    ()       (1,1)   ()
+    ()       ()      (2,2)
     ```
-    - i = j   ->  so we can say (i,i)
+    - here `i = j`
+    - so we can say `(i,i)`
 
+- for secondary diagonal
+    ```
+    ()      ()      (0,2)
+    ()      (1,1)   ()
+    (2,0)   ()      ()
+    ```
+    - here `i` is increased by 1 every time  -> `i+1`
+    - `j` is decreased by 1 every time       -> `j-1`
+    - But 
+        - `i+j = n-1`  -> n = number of row or column
+        - `j = n-1-i`
+    - so we can say `(i, n-1-i)`
+
+- for each row or column 
+    ```
+    (0,0)   (0,1)   (0,2)   
+    (1,0)   ()      ()
+    (1,2)   ()      ()
+    ``` 
+    - for row
+        - (i,j)
+    - for column
+        - (j,i)
