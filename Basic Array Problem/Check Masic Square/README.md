@@ -1,4 +1,5 @@
 **Problem Description**
+
 Given a matrix of dimensions n x n having elements 1 to n*n distinct elements, check whether the matrix is magic square or not.
 
 Magic square is a square that has the same sum along all rows, columns and diagonals.
