@@ -54,6 +54,9 @@ function spiral_matrix(row, col, arr){
     }
 
     return array
+
+    // Time Complexity = O(n*m)
+    // Space Complexity = O(n*m)
 }
 
 let matrix = [
